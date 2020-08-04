@@ -1,0 +1,186 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #999;
+}
+
+#principal {
+    width: 800px;
+    height: 1200px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+}
+#cabecalho { 
+    height: 240px;
+    background-color: #769dca;
+    
+}
+#cabecalho-conteudo {
+    height: 200px; 
+    line-height: 100px;
+
+}
+#cabecalho-conteudo > h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#menu { 
+    
+    height: 40px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu > ul {
+    list-style-type: none;
+}
+#menu > ul > li {
+    display: inline;
+    float: left;
+    background-color: #8edee9;
+    height: 40px;
+    width: 165px;
+    margin:0 5px;
+    text-align: center;
+    line-height: 40px;
+    transition: 400ms;
+   
+    
+}
+#menu > ul > li > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+
+}
+#menu > ul > li > a:hover{
+background-color: #2a6be2;
+}
+
+
+#menu > ul > li > a.ativa {
+    background-color: #2a6be2;
+}
+
+
+
+
+/* Conteúdo do site */
+#conteudo { 
+    height: 700px;
+    
+    padding: 50px;
+}
+.banner-cont {
+    background-color: #ccc;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.conteudo-cont {
+    
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    
+
+
+}
+.conteudo-cont>div>img {
+    display: block;
+    width: 260px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.conteudo-cont>div> .legenda {
+    width: 260px;
+    text-align: center;
+  
+
+}
+.conteudo-cont >div > .texto {
+    text-align:justify; 
+    font-size: 18px;
+}
+.imagens-cont {
+ 
+    height: 200px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.links-cont {
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.conteudo-cont > div{
+    height: 280px;
+    margin:10px;
+    flex-grow: 1;
+}
+.imagens-cont > div {
+    height: 180px;
+    margin: 10px;
+    flex-grow: 1;
+    
+}
+.imagens-cont > div > img {
+    display: block;   
+    width: 200px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagens-cont > div >p {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.links-cont > div {
+    height: 30px;
+    margin: 10px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 8px;
+}
+.links-cont > div > a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-style: Arial, Helvetica, sans-serif;
+
+   
+
+}
+
+#rodape { 
+    height: 150px;
+    width: 800px;
+    background-color: #777;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.5) inset;
+}
+#rodape > p {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ccc;
+
+}
